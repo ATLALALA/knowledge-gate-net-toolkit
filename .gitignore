@@ -1,0 +1,14 @@
+# Local research, source snapshots and cases pending publication review.
+/.local/
+
+# Local development documentation and repository instructions.
+/.docs/
+/docs/
+/AGENTS.md
+
+# Local credentials and machine settings.
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store

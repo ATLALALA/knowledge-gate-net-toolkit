@@ -2,7 +2,7 @@
 
 ## 当前可用状态
 
-2026-11-11：工具包draft-0.3已包含[工作流](knowledge-gate-network/workflow.md)、[工具卡](knowledge-gate-network/templates/index.md)及[Skill](knowledge-gate-network/SKILL.md)，可按下列路径阅读和使用。仓库托管于[ATLALALA/KnowledgeGateNet](https://github.com/ATLALALA/KnowledgeGateNet)，当前为私有仓库；尚无正式Release或发布压缩包。
+2026-11-12：工具包draft-0.5已包含[工作流](knowledge-gate-network/workflow.md)、[工具卡](knowledge-gate-network/templates/index.md)及[Skill](knowledge-gate-network/SKILL.md)，可按下列路径阅读和使用。仓库托管于[ATLALALA/KnowledgeGateNet](https://github.com/ATLALALA/KnowledgeGateNet)，当前为私有仓库；尚无正式Release或发布压缩包。
 
 Skill格式和完整目录相对引用已检查，实案绘图与返修仍在进行。宿主自动发现及安装后的实际调用尚未实测；下文Codex安装位置依据官方文档，不表示本包已完成安装验证。
 
@@ -18,7 +18,7 @@ Markdown是工具卡维护源；目前没有PDF。有打印或分享需要时从
 
 可使用如下开场语，并将路径和任务换为自己的内容：
 
-> 请读取工具包目录中的SKILL.md，按其指引处理我提供的谜题材料。先读取现有任务和最新设计；允许你提出补缺提案，但实际绘制前请列出具体内容并等我决定。绘图方式和目标软件尚未确定时先问我。绘制后先列已加入的新内容并逐锁说明，再整理排版。
+> 请读取工具包目录中的SKILL.md，按其指引处理我提供的谜题材料。先读取现有任务和最新设计；允许你提出补缺提案，但实际绘制前请列出具体内容并等我决定。绘图方式、目标软件及说明输出位置和格式尚未确定时先问我。若目标只能靠界面操作和反复截图绘制，先说明成本并询问是否继续或改选推荐方式。绘制后先列已加入的新内容并逐锁说明，再整理排版。
 
 若AI只能读取粘贴文本，须一并提供指引要求的工作流与相关工具卡；只发送SKILL.md，无法取得配套材料时，应补齐材料再继续依赖它们的工作。
 
@@ -42,7 +42,10 @@ knowledge-gate-network/
 │  ├─ network.md
 │  ├─ handoff.md
 │  ├─ board-style.md
+│  ├─ walkthrough.md
 │  └─ local-layout.png
+├─ references/
+│  └─ drawing-methods.md
 └─ skills/
    ├─ knowledge-gate-propose/
    │  └─ SKILL.md
@@ -60,7 +63,7 @@ knowledge-gate-network/
 
 **更新：**在同一安装位置整体更新工具包，并核对 `index.md` 中的配套版本；有本地工具修改时先保留并比较。用户图、任务记录和游戏材料存放在用户项目，不放入安装目录，因此不随工具更新覆盖。更新后再检查识别及最小调用；不要把不同版本的Skill、工作流和卡片混装。
 
-安装本包不会自动提供某个画板的读写能力。具体绘图由用户选择；需要连接服务时按所选环境的实际能力配置，未验证的平台不列为已支持。
+安装本包不会自动提供某个画板的读写能力。具体绘图由用户选择；需要连接服务时按所选环境的实际能力配置，未验证的平台不列为已支持。[绘图方式与成本选择](knowledge-gate-network/references/drawing-methods.md)提供Markdown＋Mermaid、Python生成SVG和原生.drawio三种预设，以及界面操作前的成本确认规则。
 
 ## ZIP 与 GitHub
 

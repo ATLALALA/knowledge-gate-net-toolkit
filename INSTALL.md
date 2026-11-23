@@ -2,7 +2,7 @@
 
 ## 当前可用状态
 
-2026-11-12：工具包draft-0.5已包含[工作流](knowledge-gate-network/workflow.md)、[工具卡](knowledge-gate-network/templates/index.md)及[Skill](knowledge-gate-network/SKILL.md)，可按下列路径阅读和使用。仓库托管于[ATLALALA/knowledge-gate-net-toolkit](https://github.com/ATLALALA/knowledge-gate-net-toolkit)，2026-11-23起作为公开工具包仓库；尚无正式Release或发布压缩包。
+2026-11-24：工具包draft-0.6已包含[工作流](knowledge-gate-network/workflow.md)、[工具卡](knowledge-gate-network/templates/index.md)及[Skill](knowledge-gate-network/SKILL.md)，可按下列路径阅读和使用。仓库托管于[ATLALALA/knowledge-gate-net-toolkit](https://github.com/ATLALALA/knowledge-gate-net-toolkit)，2026-11-23起作为公开工具包仓库；尚无正式Release或发布压缩包。
 
 Skill格式和完整目录相对引用已检查，实案绘图与返修仍在进行。宿主自动发现及安装后的实际调用尚未实测；下文Codex安装位置依据官方文档，不表示本包已完成安装验证。
 
@@ -69,6 +69,6 @@ knowledge-gate-network/
 
 - 仓库入口是根 `README.md`；工具内容入口是包内 `index.md`。
 - 发布ZIP至少包含README、本说明及完整 `knowledge-gate-network/`，首次公开前补齐已确认的许可。
-- `.local/`、本地开发文档`.docs/`（或`docs/`）及`AGENTS.md`只保留在本机，不进入Git或发布包；工具使用不依赖这些文件。
+- 个人原始资料`.local/`不进入Git或发布包；开发文档`docs/`及维护约定`AGENTS.md`仅在私有开发仓库维护，不进入本工具包仓库或公开发布包。旧目录`.docs/`同样不分发；工具使用不依赖这些文件。
 - 本机任务快照用于版本留存，不是正式发布件。首次发布前分别实测下载压缩包及拉取仓库后的阅读、安装与调用入口，并记录验证环境。
 - 有仓库访问权限的用户可通过[GitHub仓库](https://github.com/ATLALALA/KnowledgeGateNet)的Code菜单下载ZIP或克隆，使用GitHub Desktop时选择该仓库进行克隆。下载源文件不等于正式版本发布；其他AI环境须分别确认读取或安装能力。

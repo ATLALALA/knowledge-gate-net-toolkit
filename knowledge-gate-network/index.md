@@ -4,17 +4,17 @@
 
 ## 当前版本与入口
 
-工具包版本：**draft-0.5 · 2026-11-12**。本次明确前置来源与K→C→I关系规则、未知前置和共同反馈的处理，补充绘图能力与成本确认；修订后的执行效果待继续实践检验，不是正式发布版。
+工具包版本：**draft-0.6 · 2026-11-24**。本次统一K–C–I–F与三类跨锁关系，补齐必要依赖、共建反馈、三线索推荐、虚线及四层衔接，并同步教学例；后续考察使用支持与适用条件，尚非正式发布版。
 
 | 材料 | 职责与入口 | 版本 |
 | --- | --- | --- |
-| 工作流 | [概念、目标与整体使用流程](workflow.md) | draft-0.5 |
-| 工具卡 | [索引](templates/index.md)：两张核心卡、开发交接附页、画板样式及逐锁说明卡 | draft-0.5 |
-| 主Skill | [知识锁网络设计](SKILL.md)：材料、提案、图稿、检查、作者决定及流程接续 | draft-0.5 |
-| 提案Skill | [补充提案与确认](skills/knowledge-gate-propose/SKILL.md)：确认补充意愿、提出具体方案、绘图前取得决定 | draft-0.5 |
-| 说明Skill | [图外说明](skills/knowledge-gate-explain/SKILL.md)：确认输出位置，先列实际新增，再按说明卡带节点引用逐锁讲解 | draft-0.5 |
-| 排版Skill | [最终排版](skills/knowledge-gate-layout/SKILL.md)：主次、三角结构、样式、间距、布线及实际预览 | draft-0.5 |
-| 绘图参考 | [绘图方式与成本选择](references/drawing-methods.md)：能力检查、用户确认和三种预设 | draft-0.5 |
+| 工作流 | [概念、目标与整体使用流程](workflow.md) | draft-0.6 |
+| 工具卡 | [索引](templates/index.md)：两张核心卡、开发交接附页、画板样式及逐锁说明卡 | draft-0.6 |
+| 主Skill | [知识锁网络设计](SKILL.md)：材料、提案、图稿、检查、作者决定及流程接续 | draft-0.6 |
+| 提案Skill | [补充提案与确认](skills/knowledge-gate-propose/SKILL.md)：确认补充意愿、提出具体方案、绘图前取得决定 | draft-0.6 |
+| 说明Skill | [图外说明](skills/knowledge-gate-explain/SKILL.md)：确认输出位置，先列实际新增，再按说明卡带节点引用逐锁讲解 | draft-0.6 |
+| 排版Skill | [最终排版](skills/knowledge-gate-layout/SKILL.md)：主次、三角结构、样式、间距、布线及实际预览 | draft-0.6 |
+| 绘图参考 | [绘图方式与成本选择](references/drawing-methods.md)：能力检查、用户确认和三种预设 | draft-0.6 |
 | 教学示例 | 随卡片提供；[逐锁说明例](templates/walkthrough.md)演示图文对应，[局部样式图](templates/local-layout.png)只演示结构和样式 | 随配套文档 |
 
 工作流维护概念与整体方法，工具卡维护填写与图示规范，主Skill统筹材料、结构绘图及接续。三个过程Skill各有输入和交出结果，不另立理论或重复完整模板。

@@ -2,7 +2,7 @@
 
 ## 当前可用状态
 
-2026-11-12：工具包draft-0.5已包含[工作流](knowledge-gate-network/workflow.md)、[工具卡](knowledge-gate-network/templates/index.md)及[Skill](knowledge-gate-network/SKILL.md)，可按下列路径阅读和使用。仓库托管于[ATLALALA/KnowledgeGateNet](https://github.com/ATLALALA/KnowledgeGateNet)，当前为私有仓库；尚无正式Release或发布压缩包。
+2026-11-12：工具包draft-0.5已包含[工作流](knowledge-gate-network/workflow.md)、[工具卡](knowledge-gate-network/templates/index.md)及[Skill](knowledge-gate-network/SKILL.md)，可按下列路径阅读和使用。仓库托管于[ATLALALA/knowledge-gate-net-toolkit](https://github.com/ATLALALA/knowledge-gate-net-toolkit)，2026-11-23起作为公开工具包仓库；尚无正式Release或发布压缩包。
 
 Skill格式和完整目录相对引用已检查，实案绘图与返修仍在进行。宿主自动发现及安装后的实际调用尚未实测；下文Codex安装位置依据官方文档，不表示本包已完成安装验证。
 
